@@ -1,0 +1,245 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    width: 980px;
+    height: 2222px;
+    background-color:black;
+    margin-right: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.poster{
+    height: 460px;
+
+}
+.poster-footer{
+    height: 110px;
+    background-color: rgb(90,46,152);
+    display: flex;
+}
+.poster-img{
+    height: 350px;
+}
+.poster-footer-left{
+    width:75% ;
+    padding-left: 20px;
+}
+.poster-footer-right{
+    flex: 1;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.poster-footer span{
+    font-size: smaller;
+    padding-top: 10px;
+}
+.poster-footer-right button{
+    width: 90%;
+    height: 80%;
+    align-items: center;
+    background-color: white;
+    border:none;
+    font-size:x-large;
+    font-weight: 600;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.warning{
+    margin-top: 30px;
+    height: 49px;
+    background-color: rgb(209,236,241);
+    border-style: solid;
+    border-color: rgb(190,229,235);
+    color: black;
+    line-height: 19px;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 0;
+    text-align:justify;
+}
+body div{
+    border-radius: 5px;
+}
+.ad{
+    height: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ad img{
+    width: 70%;
+}
+.clearfix{
+    height: 986px;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 1px;
+}
+
+.row{
+    width: 180px;
+    height: 309px;
+    margin:0px 8px 15px 5px;
+
+}
+.sereis-poster{
+    width: 186px;
+}
+.series-poster {
+    position: relative;
+}
+.sereis-name{
+    width: 186px;
+    height: 38px;
+    line-height: 15px;
+    font-size: 15px;
+    text-align: center;
+    color:rgb(238,238,238,0.7);
+
+}
+.hd{
+    background-color:rgb(255,255,255);
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: small;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    color: black;
+    padding-top: 2px;
+    overflow :hidden
+}
+.episode{
+    background-color: rgb(90,46,152);
+    height: 18px;
+    position: absolute;
+    bottom:7px;
+    left: 0;
+    font-size: small;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+.sub{
+    background-color:rgb(195,157,0);
+    height: 18px;
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    font-size: small;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 0;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+.main-div2{
+    display: flex;
+    flex-direction: row;
+    height: 51px;
+    background-color: rgb(25,25,25);
+    box-sizing: border-box;
+    color: rgb(170,170,170);
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    position: relative;
+    align-items: center;
+}
+.time{
+    width: 70px;
+    height:21px;
+    color: rgb(171,171,171);
+    cursor: pointer;
+    font-family: 'Poppins','Arial';
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.film-name-main{
+    color: rgb(238,238,238,0.5);
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'poppins';
+    font-weight: 400;
+    text-align: center;
+}
+.main-div2 button{
+    background-color: rgb(43,43,43);
+    border-color: rgba(0,0,0,0);
+    border-style: solid;
+    border-radius: 3.2px;
+    color: rgb(171,171,171);
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    width: 108px;
+    height: 30px;
+    text-align:left;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+}
+.main-last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25,25,25,0.5);
+
+}
+.tsd-item{
+    background-color:rgb(36,36,36);
+    width: 113px;
+    height: 62px;
+    padding-top: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    color:rgb(174,174,174);
+    font-family: 'Poppins';
+    font-weight: 400px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.date{
+    color: rgb(102,102,102);
+}
+.btn{
+    width: 33px;
+    height: 60px;
+    background-color: rgb(48,48,48);
+    border-radius: 6px;
+    border-style: solid;
+    cursor: pointer;
+}
+h3{
+    text-align: left;
+    padding: 5px;
+}
+.main-div2 h3{
+    text-align: left;
+}
