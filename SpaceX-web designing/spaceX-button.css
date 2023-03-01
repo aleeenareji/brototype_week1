@@ -1,0 +1,38 @@
+.watch{
+    width: 130px;
+    height: 51px;
+    border: 2px;
+    background:none;
+    color:white;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: x-large;
+    border-color: white;
+    border-style: solid;
+    transition: 0.4s;
+    position: absolute;
+    bottom: 0;
+}
+.watch:hover:after {
+    transform: scaleY(1);
+    transform-origin:bottom;
+    color:black;
+  }
+ .watch:after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 127px;
+   opacity: 0.7;
+   transform: scaleY(0);
+   height: 49px;
+   color: inherit;
+   background-color: white;
+   transform-origin:top;
+   transition: transform 0.4s ease-out;
+ }
+ .watch:hover{
+    color: black;
+    background-color: white;
+ }
+ 

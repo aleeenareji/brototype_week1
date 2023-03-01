@@ -1,0 +1,88 @@
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:48px;
+    margin-top: 0;
+}
+.left-section{
+    display:flex;
+    margin-left:200px ;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+.right-section{
+    display: flex;
+    width:250px;
+    justify-content:start;
+    align-items: center;
+    padding-right: 20px;
+
+}
+.middle-section{
+    display: flex;
+    justify-content:left;
+    flex: 1;
+}
+.div2{
+    height: 22px;
+    width: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(86,86,86);
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.1;
+}
+.div2:hover{
+    background-color: rgba(86,86,86,0.15);
+}
+.button1{
+    cursor: pointer;
+    border:none;
+    background-color: rgb(255,255,255);
+}
+.right-section img{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 22px;
+}
+.right-section button:hover{
+    background-color: rgba(86,86,86,0.15);
+}
+.div2:hover{
+    background-color: rgba(86,86,86,0.15);
+}
+.div2 img{
+    width: 10px;
+    height: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+}
+.body{
+    margin:0;
+}
+.cabbage-top{
+    height: 975px;
+    position: relative;
+    width: 1903px;
+    background-image: url(Threat-Intelligence-Index\ \(1\).webp);
+}
